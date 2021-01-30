@@ -18,6 +18,12 @@ app.post('/api/notes', (req, res) => {
     res.json(newNote);
 })
 
+app.delete('/api/notes/:id', (req, res) => {
+    const id = db.indexOf(req.params.id - 1);
+    db.splice(id);
+    res.json(db);
+})
+
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html')));
 
 
