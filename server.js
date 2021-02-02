@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const db = require('../Develop/db/db.json');
+const db = require('../noteTaker/db/db.json');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express();
@@ -21,6 +21,7 @@ app.post('/api/notes', (req, res) => {
 });
 
 app.delete('/api/notes/:id', (req, res) => {
+    console.log(req.url);
     for(let i = 0; i < db.length; i++){
         if(db[i].id === req.params.id){
             db.splice(i, 1);
