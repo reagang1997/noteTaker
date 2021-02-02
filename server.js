@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const db = require('db.json');
+const db = require('./db.json');
 const { v4: uuidv4 } = require('uuid');
 
 const app = express();
