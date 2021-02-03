@@ -3,7 +3,7 @@
 
 ## Description
 A user can save/delete notes that are stored in a local db file
-
+[Live Website](https://reagannotetaker.herokuapp.com/)
 ## Table Of Contents
 *[Installation](#install)
 *[Usage](#usage)
@@ -29,3 +29,8 @@ reagang1997
 ### GitHub email
 rbgrunwald1997@gmail.com
 
+
+## Images
+![Home](public\assets\img\demo1.PNG?raw=true "Home")
+![No Saved](public\assets\img\demo2.PNG?raw=true "No Saved")
+![Sample Notes](public\assets\img\demo3.PNG?raw=true "Sample Notes")
