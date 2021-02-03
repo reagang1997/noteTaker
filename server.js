@@ -21,7 +21,6 @@ app.post('/api/notes', (req, res) => {
 });
 
 app.delete('/api/notes/:id', (req, res) => {
-    console.log(req.url);
     for(let i = 0; i < db.length; i++){
         if(db[i].id === req.params.id){
             db.splice(i, 1);
