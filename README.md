@@ -31,6 +31,6 @@ rbgrunwald1997@gmail.com
 
 
 ## Images
-![Home](public\assets\img\demo1.PNG?raw=true "Home")
+![Home](.\public\assets\img\demo1.PNG?raw=true "Home")
 ![No Saved](public\assets\img\demo2.PNG?raw=true "No Saved")
 ![Sample Notes](public\assets\img\demo3.PNG?raw=true "Sample Notes")
